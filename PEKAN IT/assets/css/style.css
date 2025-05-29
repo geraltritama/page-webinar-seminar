@@ -1,0 +1,294 @@
+/* Reset */
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Oxanium", sans-serif;
+    overflow-x: hidden;
+
+}
+
+/* hero section */
+.hero-section {
+    background-color: #040314;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section .bintangbesar {
+    width: 30%;
+    position: absolute;
+    top: -9%;
+    left: 0%
+
+}
+
+.hero-section .bintangkecil {
+    width: 15%;
+    position: absolute;
+    top: 20%;
+    left: 0%
+}
+
+.hero-section .rasibintang {
+    width: 100%;
+    position: absolute;
+}
+.text-section .text-judul {
+    margin-top: -10%;
+    color: #F5E4FF;
+    letter-spacing: -3%;
+    font-size: 8rem;
+    font-weight: 600;
+    text-shadow: 10px 10px 3px rgba(0, 0, 0, 0.3);
+}
+/* end hero section */
+
+/* start data diri */
+.datadiri-section {
+    background-color: #040314;
+    width: 100%;
+    height: 800px;
+}
+
+.text-datadiri .datadiri-judul {
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+
+.form {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+.text-label {
+    text-align: left;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+label {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.input-form {
+  width: 100%;
+  height: 5rem;
+  padding: 20px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background-color: white;
+  box-shadow: 15px 15px 5px rgba(0,0,0,0.3);
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+/* end data diri */
+
+/* start syarat */
+.syarat-section {
+    background-color: #040314;
+    color: #FFFFFF;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.syarat-judul {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+
+.syarat-label {
+    font-size: 1.2rem
+}
+.list-syarat {
+    text-align: center;
+    border: 2px solid #ffffff;
+    width: 80%;
+    text-align: left;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.syarat-label {
+    text-align: center;
+}
+
+.upload-box {
+    text-align: center;
+}
+
+/* end syarat */
+
+/* start pembayaran section */
+.pembayaran-section {
+    background-color: #040314;
+    color: #FFFFFF;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.unguelipse {
+    z-index: 10;
+    position: absolute;
+    top: -20%;
+    right: 0%;
+    width: 20%;
+}
+
+.blueelipse {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    border-radius: 50%;
+    width: 30%;
+}
+.metodepembayaran {
+    z-index: 2;
+    width: 50%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.metodepembayaran h3{
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.danasea {
+    width: 100%;
+}
+
+.dot {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.rekening {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 30px;
+}
+/* end pembayaran section */
+
+
+/* start upload section */
+.upload-section {
+    background-color: #040314;
+    color: #FFFFFF;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.text-upload h2{
+    margin-top: 100px;
+    width: 650px;
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: left;
+    margin-bottom: 5vw;
+    color: #FFFFFF;
+}
+
+.custom-file-upload {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+}
+
+.custom-file-upload svg {
+    width: 24px;
+    height: 24px;
+}
+
+.custom-file-upload input[type="file"] {
+    display: none;
+}
+
+.button-group {
+    margin-top: 30px;  
+    width: 650px;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
+.btn-white, .btn-purple {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+}
+
+.btn-purple {
+    background: linear-gradient(to right, #6a11cb, #2575fc); 
+    color: white;
+}
+
+/* css seminar */
+.text-section .text-judul2{
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}

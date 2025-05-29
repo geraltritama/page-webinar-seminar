@@ -1,0 +1,21 @@
+.custom-file-upload {
+        width: 90%;
+        justify-content: center;
+        text-align: center;
+        padding: 12px 0;
+        font-size: 1rem;
+    }
+    .upload-section,
+    .syarat-section {
+        height: auto;
+        padding-bottom: 40px;
+    }
+    .text-upload h2,
+    .button-group {
+        width: 95%;
+        font-size: 1.1rem;
+    }
+    .metodepembayaran {
+        width: 90%;
+        font-size: 1.1rem;
+    }
